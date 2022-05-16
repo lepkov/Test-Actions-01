@@ -2,7 +2,7 @@ name: Testing run on certain branches
 
 on:
   push:
-    branches: [ releases/* ]
+    branches: [ releases ]
   workflow_dispatch:
 
 permissions:
